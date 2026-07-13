@@ -49,18 +49,18 @@ export default function PresentationPage() {
 
       {/* PÁGINA 4: CARTA DEL DIRECTOR GENERAL */}
       <Slide>
-        <h2 className={styles.titlePremium} style={{ fontSize: '3.5rem' }}>
+        <h2 className={styles.titlePremium} style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>
           El futuro de su empresa no debería estar limitado por su tecnología.
         </h2>
-        <div className={styles.textEditorial}>
-          <p style={{ marginBottom: '1.5rem' }}>Estimado líder empresarial,</p>
-          <p style={{ marginBottom: '1.5rem' }}>
+        <div className={styles.textEditorial} style={{ fontSize: '1.125rem', lineHeight: '1.6' }}>
+          <p style={{ marginBottom: '1rem' }}>Estimado líder empresarial,</p>
+          <p style={{ marginBottom: '1rem' }}>
             El crecimiento trae consigo complejidad. A medida que su empresa escala, los procesos que antes funcionaban comienzan a fragmentarse. La información se dispersa, las decisiones se toman sin datos precisos y el control operativo se vuelve un desafío diario.
           </p>
-          <p style={{ marginBottom: '1.5rem' }}>
+          <p style={{ marginBottom: '1rem' }}>
             En LucSar TECH, entendemos que la tecnología no es solo una herramienta; es el sistema nervioso de su negocio. Nuestro propósito es devolverle el control. Diseñamos e implementamos ecosistemas de software—CRM, ERP y Plataformas Web—que no solo resuelven los problemas de hoy, sino que construyen la infraestructura para el éxito de mañana.
           </p>
-          <p style={{ marginBottom: '3rem' }}>
+          <p style={{ marginBottom: '1.5rem' }}>
             No somos solo desarrolladores de software. Somos arquitectos de soluciones empresariales. Bienvenido al siguiente nivel de su empresa. Bienvenido a LucSar TECH.
           </p>
           <p><strong>Director General</strong><br/>LucSar TECH</p>
