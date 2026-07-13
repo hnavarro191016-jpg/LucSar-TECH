@@ -1,0 +1,107 @@
+.trustSection {
+  padding: 4rem 0;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.trustContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.statItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-tertiary);
+  color: var(--color-button);
+}
+
+.statValue {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+  line-height: 1.2;
+}
+
+.statLabel {
+  font-size: 0.875rem;
+  color: var(--color-text);
+}
+
+.logosArea {
+  text-align: center;
+  padding-top: 3rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.logosTitle {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.logosGrid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  opacity: 0.6;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+
+.logosGrid:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+}
+
+.logoItem {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--color-text);
+  letter-spacing: 0.1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clientImage {
+  object-fit: contain;
+  mix-blend-mode: multiply; /* Removes white backgrounds from non-transparent images */
+}
+
+@media (max-width: 1024px) {
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .statsGrid {
+    grid-template-columns: 1fr;
+  }
+  .logosGrid {
+    justify-content: center;
+  }
+}

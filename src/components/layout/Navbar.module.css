@@ -1,0 +1,120 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: all 0.4s ease;
+  padding: 0.5rem 0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.scrolled {
+  padding: 0.25rem 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logoImage {
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--color-secondary);
+  letter-spacing: -0.05em;
+}
+
+.scrolled .logo {
+  color: var(--color-secondary);
+}
+
+.header:not(.scrolled) .logo {
+  color: var(--color-secondary); /* or white depending on hero background, we will make hero have a light background so this is fine */
+}
+
+.logo span {
+  color: var(--color-button);
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navLinks a {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--color-text);
+  transition: color 0.3s ease;
+}
+
+.navLinks a:hover {
+  color: var(--color-button);
+}
+
+.presentationLink {
+  font-weight: 600 !important;
+  color: var(--color-secondary) !important;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-tertiary);
+  border: 1px solid var(--color-border);
+  transition: all 0.3s ease;
+}
+
+.presentationLink:hover {
+  background-color: var(--color-border);
+  transform: translateY(-2px);
+}
+
+.mobileToggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-secondary);
+}
+
+@media (max-width: 992px) {
+  .navLinks {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1.5rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+  }
+
+  .navLinks.mobileOpen {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .mobileToggle {
+    display: block;
+  }
+}
