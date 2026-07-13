@@ -36,7 +36,7 @@ export default function Navbar() {
           <Link href="#nosotros" onClick={toggleMenu}>Nosotros</Link>
           <Link href="#casos" onClick={toggleMenu}>Casos de éxito</Link>
           <Link href="#contacto" onClick={toggleMenu}>Contacto</Link>
-          <Link href="/presentation" className={styles.presentationLink}>
+          <Link href="/presentation" className={styles.presentationLink} onClick={toggleMenu}>
             Presentación
           </Link>
           
