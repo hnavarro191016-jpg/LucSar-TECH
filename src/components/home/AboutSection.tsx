@@ -13,15 +13,14 @@ export default function AboutSection() {
   return (
     <section id="nosotros" className="section">
       <div className="container">
-        <div className={styles.header}>
-          <h2 className="title-section">Nosotros</h2>
-          <p className="subtitle">
-            En <strong>LucSar TECH</strong> creemos que la tecnología debe ser una herramienta para impulsar el crecimiento de las empresas, no una complicación más en su operación.
-          </p>
-        </div>
-
         <div className={styles.contentGrid}>
           <div className={styles.textContent}>
+            <div className={styles.header}>
+              <h2 className="title-section">Nosotros</h2>
+              <p className="subtitle">
+                En <strong>LucSar TECH</strong> creemos que la tecnología debe ser una herramienta para impulsar el crecimiento de las empresas, no una complicación más en su operación.
+              </p>
+            </div>
             <p className={styles.paragraph}>
               Nos especializamos en el diseño y desarrollo de soluciones de software empresarial que automatizan procesos, optimizan recursos y facilitan la toma de decisiones mediante información confiable y en tiempo real.
             </p>
