@@ -55,7 +55,7 @@ export default function PublicidadPage() {
               <span>81 1663 7766</span>
             </div>
             <div className={styles.otherInfo}>
-              <span className={styles.infoItem}><Mail size={18} /> info.lucsartech@gmail.com</span>
+              <span className={styles.infoItem}><Mail size={18} /> info.lusamtech@gmail.com</span>
             </div>
           </div>
         </div>
