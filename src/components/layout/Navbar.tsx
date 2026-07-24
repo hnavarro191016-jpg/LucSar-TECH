@@ -25,7 +25,7 @@ export default function Navbar() {
     <header className={`${styles.header} ${isScrolled ? styles.scrolled : ''}`}>
       <div className={`container ${styles.navContainer}`}>
         <Link href="/" className={styles.logoWrapper}>
-          <Image src="/logo.png" alt="LucSar TECH Logo" width={90} height={90} className={styles.logoImage} priority />
+          <Image src="/logo.png" alt="LuSam TECH Logo" width={90} height={90} className={styles.logoImage} priority />
         </Link>
 
         <nav className={`${styles.navLinks} ${isMobileMenuOpen ? styles.mobileOpen : ''}`}>
@@ -40,7 +40,7 @@ export default function Navbar() {
             Presentación
           </Link>
           
-          <a href="https://wa.me/528115187738?text=Hola%20LucSar%20TECH,%20me%20interesa%20agendar%20una%20reuni%C3%B3n" target="_blank" rel="noopener noreferrer" className={`btn btn-primary ${styles.ctaButton}`}>
+          <a href="https://wa.me/528116637766?text=Hola%20LuSam%20TECH,%20me%20interesa%20agendar%20una%20reuni%C3%B3n" target="_blank" rel="noopener noreferrer" className={`btn btn-primary ${styles.ctaButton}`}>
             Agenda una reunión
           </a>
         </nav>

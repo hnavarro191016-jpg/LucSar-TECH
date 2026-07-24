@@ -10,7 +10,7 @@ export default function Footer() {
         
         <div className={styles.brandCol}>
           <Link href="/" className={styles.logoWrapper}>
-            <Image src="/logo.png" alt="LucSar TECH Logo" width={160} height={160} className={styles.logoImage} />
+            <Image src="/logo.png" alt="LuSam TECH Logo" width={160} height={160} className={styles.logoImage} />
           </Link>
           <p className={styles.brandDesc}>
             Desarrollo de software corporativo y soluciones tecnológicas avanzadas para empresas que buscan liderar el mercado.
@@ -39,11 +39,11 @@ export default function Footer() {
         <div className={styles.contactCol}>
           <h4 className={styles.colTitle}>Contacto</h4>
           <div className={styles.contactList}>
-            <a href="mailto:info.lucsartech@gmail.com" className={styles.contactItem}>
-              <Mail size={18} /> info.lucsartech@gmail.com
+            <a href="mailto:info.lusamtech@gmail.com" className={styles.contactItem}>
+              <Mail size={18} /> info.lusamtech@gmail.com
             </a>
-            <a href="https://wa.me/528115187738" className={styles.contactItem} target="_blank" rel="noreferrer">
-              <Phone size={18} /> WhatsApp: 811 518 7738
+            <a href="https://wa.me/528116637766" className={styles.contactItem} target="_blank" rel="noreferrer">
+              <Phone size={18} /> WhatsApp: 81 1663 7766
             </a>
             <div className={styles.contactItem}>
               <MapPin size={18} /> Corporativo Internacional
@@ -54,7 +54,7 @@ export default function Footer() {
 
       <div className={styles.copyright}>
         <div className="container">
-          <p>&copy; {new Date().getFullYear()} LucSar TECH. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} LuSam TECH. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

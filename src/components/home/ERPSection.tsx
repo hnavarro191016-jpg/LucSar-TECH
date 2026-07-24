@@ -39,7 +39,7 @@ export default function ERPSection() {
             <div className={styles.sidebar}>
               <div className={styles.sidebarLogo}>
                 <div className={styles.logoIcon}></div>
-                <span>LucSar ERP</span>
+                <span>LuSam ERP</span>
               </div>
               <nav className={styles.sidebarNav}>
                 {sidebarItems.map((item, idx) => (

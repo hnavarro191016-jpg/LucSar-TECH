@@ -7,7 +7,7 @@ import styles from './presentation.module.css';
 import { Monitor, Server, Lock, Layers, BarChart, CheckCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'LucSar TECH | Corporate Sales Book',
+  title: 'LuSam TECH | Corporate Sales Book',
   description: 'Software Empresarial para Empresas en Crecimiento',
 };
 
@@ -18,7 +18,7 @@ export default function PresentationPage() {
       <Slide>
         <div style={{ textAlign: 'center' }}>
           <h1 className={styles.titlePremium} style={{ fontSize: '5rem', marginBottom: '1rem' }}>
-            LUCSAR TECH
+            LUSAM TECH
           </h1>
           <p className={styles.subtitlePremium} style={{ margin: '0 auto' }}>
             Software Empresarial para Empresas en Crecimiento.
@@ -34,13 +34,13 @@ export default function PresentationPage() {
             <li><strong style={{color: 'var(--color-secondary)'}}>01.</strong> Carta del Director General</li>
             <li><strong style={{color: 'var(--color-secondary)'}}>02.</strong> Quiénes Somos</li>
             <li><strong style={{color: 'var(--color-secondary)'}}>03.</strong> Nuestra Filosofía</li>
-            <li><strong style={{color: 'var(--color-secondary)'}}>04.</strong> ¿Por qué LucSar TECH?</li>
+            <li><strong style={{color: 'var(--color-secondary)'}}>04.</strong> ¿Por qué LuSam TECH?</li>
             <li><strong style={{color: 'var(--color-secondary)'}}>05.</strong> Nuestra Metodología</li>
           </ul>
           <ul style={{ listStyle: 'none', fontSize: '1.5rem', lineHeight: '2.5', color: 'var(--color-text)' }}>
-            <li><strong style={{color: 'var(--color-button)'}}>06. Capítulo 1:</strong> LucSar CRM</li>
-            <li><strong style={{color: 'var(--color-button)'}}>07. Capítulo 2:</strong> LucSar ERP</li>
-            <li><strong style={{color: 'var(--color-button)'}}>08. Capítulo 3:</strong> LucSar Web</li>
+            <li><strong style={{color: 'var(--color-button)'}}>06. Capítulo 1:</strong> LuSam CRM</li>
+            <li><strong style={{color: 'var(--color-button)'}}>07. Capítulo 2:</strong> LuSam ERP</li>
+            <li><strong style={{color: 'var(--color-button)'}}>08. Capítulo 3:</strong> LuSam Web</li>
             <li><strong style={{color: 'var(--color-secondary)'}}>09.</strong> Tecnologías</li>
             <li><strong style={{color: 'var(--color-secondary)'}}>10.</strong> Contacto</li>
           </ul>
@@ -58,18 +58,18 @@ export default function PresentationPage() {
             El crecimiento trae consigo complejidad. A medida que su empresa escala, los procesos que antes funcionaban comienzan a fragmentarse. La información se dispersa, las decisiones se toman sin datos precisos y el control operativo se vuelve un desafío diario.
           </p>
           <p style={{ marginBottom: '1rem' }}>
-            En LucSar TECH, entendemos que la tecnología no es solo una herramienta; es el sistema nervioso de su negocio. Nuestro propósito es devolverle el control. Diseñamos e implementamos ecosistemas de software—CRM, ERP y Plataformas Web—que no solo resuelven los problemas de hoy, sino que construyen la infraestructura para el éxito de mañana.
+            En LuSam TECH, entendemos que la tecnología no es solo una herramienta; es el sistema nervioso de su negocio. Nuestro propósito es devolverle el control. Diseñamos e implementamos ecosistemas de software—CRM, ERP y Plataformas Web—que no solo resuelven los problemas de hoy, sino que construyen la infraestructura para el éxito de mañana.
           </p>
           <p style={{ marginBottom: '1.5rem' }}>
-            No somos solo desarrolladores de software. Somos arquitectos de soluciones empresariales. Bienvenido al siguiente nivel de su empresa. Bienvenido a LucSar TECH.
+            No somos solo desarrolladores de software. Somos arquitectos de soluciones empresariales. Bienvenido al siguiente nivel de su empresa. Bienvenido a LuSam TECH.
           </p>
-          <p><strong>Director General</strong><br/>LucSar TECH</p>
+          <p><strong>Director General</strong><br/>LuSam TECH</p>
         </div>
       </Slide>
 
       {/* PÁGINAS 5-6: QUIÉNES SOMOS */}
       <Slide>
-        <h2 className={styles.titlePremium}>Sobre LucSar TECH</h2>
+        <h2 className={styles.titlePremium}>Sobre LuSam TECH</h2>
         <p className={styles.subtitlePremium} style={{ marginBottom: '3rem', color: 'var(--color-button)', fontWeight: 600 }}>
           Construyendo los cimientos digitales de las empresas líderes.
         </p>
@@ -101,7 +101,7 @@ export default function PresentationPage() {
         </div>
       </Slide>
 
-      {/* PÁGINAS 8-9: ¿POR QUÉ LUCSAR TECH? */}
+      {/* PÁGINAS 8-9: ¿POR QUÉ LUSAM TECH? */}
       <Slide>
         <h2 className={styles.titlePremium}>La ventaja técnica y comercial.</h2>
         <div className={styles.gridCards}>
@@ -155,7 +155,7 @@ export default function PresentationPage() {
       <Slide>
         <div style={{ textAlign: 'center' }}>
           <p className={styles.subtitlePremium} style={{ margin: '0 auto 1rem', color: 'var(--color-button)' }}>CAPÍTULO 01</p>
-          <h2 className={styles.titlePremium} style={{ fontSize: '6rem' }}>LUCSAR CRM</h2>
+          <h2 className={styles.titlePremium} style={{ fontSize: '6rem' }}>LUSAM CRM</h2>
         </div>
       </Slide>
 
@@ -168,7 +168,7 @@ export default function PresentationPage() {
               El 80% de las ventas B2B requieren al menos 5 seguimientos. Sin embargo, la mayoría de las empresas pierden el rastro después del segundo intento.
             </p>
             <p className={styles.textEditorial}>
-              LucSar CRM es una plataforma diseñada para gestionar la relación con sus clientes, automatizar el seguimiento y dotar a su equipo directivo de proyecciones financieras precisas en tiempo real.
+              LuSam CRM es una plataforma diseñada para gestionar la relación con sus clientes, automatizar el seguimiento y dotar a su equipo directivo de proyecciones financieras precisas en tiempo real.
             </p>
           </div>
           <div style={{ background: 'var(--color-tertiary)', padding: '3rem', borderRadius: '12px' }}>
@@ -186,7 +186,7 @@ export default function PresentationPage() {
       <Slide>
         <div style={{ textAlign: 'center' }}>
           <p className={styles.subtitlePremium} style={{ margin: '0 auto 1rem', color: 'var(--color-button)' }}>CAPÍTULO 02</p>
-          <h2 className={styles.titlePremium} style={{ fontSize: '6rem' }}>LUCSAR ERP</h2>
+          <h2 className={styles.titlePremium} style={{ fontSize: '6rem' }}>LUSAM ERP</h2>
         </div>
       </Slide>
 
@@ -194,7 +194,7 @@ export default function PresentationPage() {
       <Slide>
         <h2 className={styles.titlePremium} style={{ fontSize: '3.5rem' }}>Recupera el control de tu empresa.</h2>
         <p className={styles.subtitlePremium} style={{ marginBottom: '3rem' }}>
-          Crecimiento sin control es igual a caos. LucSar ERP centraliza todas las operaciones.
+          Crecimiento sin control es igual a caos. LuSam ERP centraliza todas las operaciones.
         </p>
         <div className={styles.gridCards}>
           <div className={styles.premiumCard}>
@@ -217,7 +217,7 @@ export default function PresentationPage() {
       <Slide>
         <div style={{ textAlign: 'center' }}>
           <p className={styles.subtitlePremium} style={{ margin: '0 auto 1rem', color: 'var(--color-button)' }}>CAPÍTULO 03</p>
-          <h2 className={styles.titlePremium} style={{ fontSize: '6rem' }}>LUCSAR WEB</h2>
+          <h2 className={styles.titlePremium} style={{ fontSize: '6rem' }}>LUSAM WEB</h2>
         </div>
       </Slide>
 
@@ -253,8 +253,8 @@ export default function PresentationPage() {
             Volver al Sitio Web
           </Link>
           <p style={{ marginTop: '4rem', color: 'var(--color-text)' }}>
-            <strong>www.lucsar.tech</strong><br/>
-            contacto@lucsar.tech
+            <strong>www.lusam.tech</strong><br/>
+            contacto@lusam.tech
           </p>
         </div>
       </Slide>

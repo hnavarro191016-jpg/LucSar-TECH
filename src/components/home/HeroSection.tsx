@@ -15,7 +15,7 @@ export default function HeroSection() {
             Desarrollamos software empresarial que automatiza procesos, mejora la productividad y acelera el crecimiento de tu organización.
           </p>
           <div className={styles.ctaGroup}>
-            <a href="https://wa.me/528115187738?text=Hola%20LucSar%20TECH,%20quiero%20solicitar%20asesor%C3%ADa" target="_blank" rel="noopener noreferrer" className={`btn btn-primary ${styles.heroBtn}`}>
+            <a href="https://wa.me/528116637766?text=Hola%20LuSam%20TECH,%20quiero%20solicitar%20asesor%C3%ADa" target="_blank" rel="noopener noreferrer" className={`btn btn-primary ${styles.heroBtn}`}>
               Solicitar Asesoría
             </a>
             <a href="#servicios" className={`btn btn-secondary ${styles.heroBtn}`}>
@@ -32,7 +32,7 @@ export default function HeroSection() {
               <div className={styles.macControls}>
                 <span></span><span></span><span></span>
               </div>
-              <div className={styles.mockupTitle}>LucSar ERP - Dashboard</div>
+              <div className={styles.mockupTitle}>LuSam ERP - Dashboard</div>
             </div>
 
             {/* Dashboard Body */}

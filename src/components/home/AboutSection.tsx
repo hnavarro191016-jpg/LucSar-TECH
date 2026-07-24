@@ -18,7 +18,7 @@ export default function AboutSection() {
             <div className={styles.header}>
               <h2 className="title-section">Nosotros</h2>
               <p className="subtitle">
-                En <strong>LucSar TECH</strong> creemos que la tecnología debe ser una herramienta para impulsar el crecimiento de las empresas, no una complicación más en su operación.
+                En <strong>LuSam TECH</strong> creemos que la tecnología debe ser una herramienta para impulsar el crecimiento de las empresas, no una complicación más en su operación.
               </p>
             </div>
             <p className={styles.paragraph}>

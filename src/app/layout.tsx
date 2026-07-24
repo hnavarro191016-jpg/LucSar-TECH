@@ -8,10 +8,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "LucSar TECH | Desarrollo de Software Empresarial",
+  title: "LuSam TECH | Desarrollo de Software Empresarial",
   description: "Desarrollamos software empresarial que automatiza procesos, mejora la productividad y acelera el crecimiento de tu organización.",
   openGraph: {
-    title: "LucSar TECH | Desarrollo de Software Empresarial",
+    title: "LuSam TECH | Desarrollo de Software Empresarial",
     description: "Desarrollamos software empresarial que automatiza procesos, mejora la productividad y acelera el crecimiento de tu organización.",
     type: "website",
     locale: "es_MX",

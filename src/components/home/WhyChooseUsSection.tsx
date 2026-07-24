@@ -17,7 +17,7 @@ export default function WhyChooseUsSection() {
     <section id="ventajas" className="section bg-light">
       <div className="container">
         <div className={styles.header}>
-          <h2 className="title-section">¿Por qué elegir LucSar TECH?</h2>
+          <h2 className="title-section">¿Por qué elegir LuSam TECH?</h2>
           <p className="subtitle">
             No solo escribimos código, construimos soluciones estratégicas que posicionan a tu empresa a la vanguardia de tu industria.
           </p>
