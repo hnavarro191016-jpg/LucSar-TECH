@@ -39,8 +39,8 @@ export default function Footer() {
         <div className={styles.contactCol}>
           <h4 className={styles.colTitle}>Contacto</h4>
           <div className={styles.contactList}>
-            <a href="mailto:info.lusamtech@gmail.com" className={styles.contactItem}>
-              <Mail size={18} /> info.lusamtech@gmail.com
+            <a href="mailto:info.lucsartech@gmail.com" className={styles.contactItem}>
+              <Mail size={18} /> info.lucsartech@gmail.com
             </a>
             <a href="https://wa.me/528116637766" className={styles.contactItem} target="_blank" rel="noreferrer">
               <Phone size={18} /> WhatsApp: 81 1663 7766

@@ -19,56 +19,43 @@ export default function PublicidadPage() {
         
         <div className={styles.topSection}>
           <div className={styles.logoBox}>
-            <Image src="/logo.png" alt="LuSam TECH" width={180} height={180} className={styles.logoImg} />
+            <Image src="/logo.png?v=2" alt="LuSam TECH" width={180} height={180} className={styles.logoImg} priority unoptimized />
           </div>
           <div className={styles.badge}>SOFTWARE PARA EMPRESAS</div>
         </div>
 
         <div className={styles.heroSection}>
           <h1 className={styles.mainTitle}>
-            Transforma tu empresa con <span className={styles.highlight}>Tecnología a la Medida</span>
+            ¿Tu negocio todavía hace procesos en <span className={styles.highlight}>Excel, WhatsApp o papel</span>?
           </h1>
           <p className={styles.mainSubtitle}>
-            Automatizamos tus procesos, optimizamos recursos y aceleramos tu crecimiento con sistemas de alta calidad.
+            En muchos casos se pierde tiempo y dinero por no automatizar tareas.
           </p>
         </div>
 
-        <div className={styles.servicesGrid}>
-          <div className={styles.serviceCard}>
-            <Zap className={styles.serviceIcon} size={32} />
-            <h3 className={styles.serviceTitle}>Sistemas ERP y CRM</h3>
-            <p className={styles.serviceDesc}>Gestión total de inventarios, ventas, finanzas y clientes en tiempo real.</p>
-          </div>
-          <div className={styles.serviceCard}>
-            <Code2 className={styles.serviceIcon} size={32} />
-            <h3 className={styles.serviceTitle}>Desarrollo Web</h3>
-            <p className={styles.serviceDesc}>Plataformas corporativas, e-commerce y aplicaciones web escalables.</p>
-          </div>
-          <div className={styles.serviceCard}>
-            <Database className={styles.serviceIcon} size={32} />
-            <h3 className={styles.serviceTitle}>Automatización y Datos</h3>
-            <p className={styles.serviceDesc}>Integraciones, reportes automatizados y herramientas para toma de decisiones.</p>
-          </div>
-        </div>
-
-        <div className={styles.benefitsSection}>
-          <h4 className={styles.benefitsTitle}>¿Por qué elegirnos?</h4>
-          <ul className={styles.benefitsList}>
-            <li><CheckCircle2 size={24} className={styles.checkIcon} /> Proyectos adaptados 100% a tu operación</li>
-            <li><CheckCircle2 size={24} className={styles.checkIcon} /> Soporte continuo y asesoría tecnológica</li>
-            <li><CheckCircle2 size={24} className={styles.checkIcon} /> Incremento inmediato en la productividad</li>
+        <div className={styles.contentSection}>
+          <p className={styles.introText}>En LuSam TECH ayudamos a digitalizar procesos mediante:</p>
+          <ul className={styles.servicesList}>
+            <li><CheckCircle2 size={28} className={styles.checkIcon} /> Desarrollo de software a la medida</li>
+            <li><CheckCircle2 size={28} className={styles.checkIcon} /> Automatización de procesos</li>
+            <li><CheckCircle2 size={28} className={styles.checkIcon} /> Integraciones entre sistemas</li>
+            <li><CheckCircle2 size={28} className={styles.checkIcon} /> Dashboards y reportes</li>
+            <li><CheckCircle2 size={28} className={styles.checkIcon} /> Sitios web y soluciones tecnológicas</li>
           </ul>
         </div>
 
         <div className={styles.footerSection}>
           <div className={styles.ctaBox}>
-            <h2>Agenda una Asesoría Gratuita</h2>
+            <p className={styles.ctaText}>
+              Si quieres conocer cómo podrías ahorrar tiempo y reducir errores, escríbenos.
+              <br /><strong>La primera asesoría es sin compromiso.</strong>
+            </p>
             <div className={styles.whatsappBig}>
               <Phone size={48} className={styles.waIcon} />
               <span>81 1663 7766</span>
             </div>
             <div className={styles.otherInfo}>
-              <span className={styles.infoItem}><Mail size={18} /> info.lusamtech@gmail.com</span>
+              <span className={styles.infoItem}><Mail size={18} /> info.lucsartech@gmail.com</span>
             </div>
           </div>
         </div>

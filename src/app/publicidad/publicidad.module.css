@@ -143,67 +143,37 @@
   line-height: 1.5;
 }
 
-/* Services Grid */
-.servicesGrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+/* New Content Section */
+.contentSection {
   margin-bottom: 20px;
 }
 
-.serviceCard {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 20px; /* Reduced */
-  border-radius: 16px;
-  backdrop-filter: blur(10px);
-}
-
-.serviceIcon {
-  color: #38bdf8;
-  margin-bottom: 20px;
-}
-
-.serviceTitle {
+.introText {
   font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 12px;
-  color: white;
-}
-
-.serviceDesc {
-  font-size: 16px;
-  color: #94a3b8;
-  line-height: 1.6;
-}
-
-/* Benefits Section */
-.benefitsSection {
+  font-weight: 500;
+  color: #e2e8f0;
   margin-bottom: 20px;
 }
 
-.benefitsTitle {
-  font-size: 20px; /* Reduced */
-  font-weight: 700;
-  margin-bottom: 12px;
-  color: #e2e8f0;
-}
-
-.benefitsList {
+.servicesList {
   list-style: none;
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 16px;
 }
 
-.benefitsList li {
+.servicesList li {
   display: flex;
   align-items: center;
-  gap: 12px;
-  font-size: 18px; /* Reduced */
+  gap: 16px;
+  font-size: 24px;
   color: #f8fafc;
-  font-weight: 500;
+  font-weight: 700;
+}
+
+.checkIcon {
+  color: #38bdf8;
 }
 
 .checkIcon {
@@ -224,10 +194,10 @@
   border: 1px solid rgba(59, 130, 246, 0.3);
 }
 
-.ctaBox h2 {
-  font-size: 24px; /* Reduced */
-  font-weight: 800;
-  margin-bottom: 10px; /* Reduced */
+.ctaText {
+  font-size: 22px;
+  line-height: 1.4;
+  margin-bottom: 15px;
   color: #e0f2fe;
 }
 
