@@ -19,7 +19,7 @@ export default function PublicidadPage() {
         
         <div className={styles.topSection}>
           <div className={styles.logoBox}>
-            <Image src="/logo.png?v=2" alt="LuSam TECH" width={180} height={180} className={styles.logoImg} priority unoptimized />
+            <Image src="/logo.png?v=3" alt="LucSar TECH" width={180} height={180} className={styles.logoImg} priority unoptimized />
           </div>
           <div className={styles.badge}>SOFTWARE PARA EMPRESAS</div>
         </div>
@@ -34,7 +34,7 @@ export default function PublicidadPage() {
         </div>
 
         <div className={styles.contentSection}>
-          <p className={styles.introText}>En LuSam TECH ayudamos a digitalizar procesos mediante:</p>
+          <p className={styles.introText}>En LucSar TECH ayudamos a digitalizar procesos mediante:</p>
           <ul className={styles.servicesList}>
             <li><CheckCircle2 size={28} className={styles.checkIcon} /> Desarrollo de software a la medida</li>
             <li><CheckCircle2 size={28} className={styles.checkIcon} /> Automatización de procesos</li>

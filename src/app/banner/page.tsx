@@ -20,7 +20,7 @@ export default function BannerPage() {
           {/* Logo */}
           <div className={styles.logoSection}>
             <div className={styles.logoCircle}>
-              <Image src="/logo.png" alt="LuSam TECH Logo" width={180} height={180} className={styles.logoImg} />
+              <Image src="/logo.png" alt="LucSar TECH Logo" width={180} height={180} className={styles.logoImg} />
             </div>
           </div>
           
@@ -31,7 +31,7 @@ export default function BannerPage() {
             
             <div className={styles.contactInfo}>
               <div className={styles.contactItem}>
-                <Globe size={16} /> www.lusamtech.com
+                <Globe size={16} /> www.lucsartech.com
               </div>
               <div className={styles.contactItem}>
                 <Mail size={16} /> info.lucsartech@gmail.com

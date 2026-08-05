@@ -21,9 +21,9 @@ let changed = 0;
 files.forEach(file => {
     let content = fs.readFileSync(file, 'utf8');
     let original = content;
-    content = content.replace(/LucSar/g, 'LuSam');
-    content = content.replace(/lucsar/g, 'lusam');
-    content = content.replace(/LUCSAR/g, 'LUSAM');
+    content = content.replace(/LuSam/g, 'LucSar');
+    content = content.replace(/lusam/g, 'lucsar');
+    content = content.replace(/LUSAM/g, 'LUCSAR');
     if (content !== original) {
         fs.writeFileSync(file, content, 'utf8');
         console.log('Updated', file);

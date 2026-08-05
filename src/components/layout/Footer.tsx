@@ -10,7 +10,7 @@ export default function Footer() {
         
         <div className={styles.brandCol}>
           <Link href="/" className={styles.logoWrapper}>
-            <Image src="/logo.png" alt="LuSam TECH Logo" width={160} height={160} className={styles.logoImage} />
+            <Image src="/logo.png" alt="LucSar TECH Logo" width={160} height={160} className={styles.logoImage} />
           </Link>
           <p className={styles.brandDesc}>
             Desarrollo de software corporativo y soluciones tecnológicas avanzadas para empresas que buscan liderar el mercado.
@@ -54,7 +54,7 @@ export default function Footer() {
 
       <div className={styles.copyright}>
         <div className="container">
-          <p>&copy; {new Date().getFullYear()} LuSam TECH. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} LucSar TECH. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
