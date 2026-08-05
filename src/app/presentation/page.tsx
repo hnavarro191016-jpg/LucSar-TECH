@@ -253,7 +253,7 @@ export default function PresentationPage() {
             Volver al Sitio Web
           </Link>
           <p style={{ marginTop: '4rem', color: 'var(--color-text)' }}>
-            <strong>lucsar-tech.vercel.app</strong><br/>
+            <strong>https://lucsar-tech.vercel.app/</strong><br/>
             info.lucsartech@gmail.com
           </p>
         </div>
