@@ -34,10 +34,10 @@ export default function BannerPage() {
                 <Globe size={16} /> www.lusamtech.com
               </div>
               <div className={styles.contactItem}>
-                <Mail size={16} /> info.lusamtech@gmail.com
+                <Mail size={16} /> info.lucsartech@gmail.com
               </div>
               <div className={styles.contactItem}>
-                <Phone size={16} /> WhatsApp: 81 1663 7766
+                <Phone size={16} /> WhatsApp: 811 518 7738
               </div>
             </div>
           </div>

@@ -40,7 +40,7 @@ export default function Navbar() {
             Presentación
           </Link>
           
-          <a href="https://wa.me/528116637766?text=Hola%20LuSam%20TECH,%20me%20interesa%20agendar%20una%20reuni%C3%B3n" target="_blank" rel="noopener noreferrer" className={`btn btn-primary ${styles.ctaButton}`}>
+          <a href="https://wa.me/528115187738?text=Hola%20LuSam%20TECH,%20me%20interesa%20agendar%20una%20reuni%C3%B3n" target="_blank" rel="noopener noreferrer" className={`btn btn-primary ${styles.ctaButton}`}>
             Agenda una reunión
           </a>
         </nav>

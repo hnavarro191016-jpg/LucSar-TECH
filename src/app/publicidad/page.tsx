@@ -52,10 +52,10 @@ export default function PublicidadPage() {
             </p>
             <div className={styles.whatsappBig}>
               <Phone size={48} className={styles.waIcon} />
-              <span>81 1663 7766</span>
+              <span>811 518 7738</span>
             </div>
             <div className={styles.otherInfo}>
-              <span className={styles.infoItem}><Mail size={18} /> info.lusamtech@gmail.com</span>
+              <span className={styles.infoItem}><Mail size={18} /> info.lucsartech@gmail.com</span>
             </div>
           </div>
         </div>

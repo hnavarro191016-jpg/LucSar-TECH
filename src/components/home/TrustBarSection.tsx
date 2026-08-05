@@ -28,18 +28,39 @@ export default function TrustBarSection() {
 
         <div className={styles.logosArea}>
           <p className={styles.logosTitle}>Empresas que confían en nuestra tecnología</p>
-          <div className={styles.logosGrid}>
-            <div className={styles.logoItem}>
-              <Image src="/badilsa.png" alt="Badilsa" width={280} height={120} className={styles.clientImage} />
-            </div>
-            <div className={styles.logoItem}>
-              <Image src="/Viksa.png" alt="Viksa" width={280} height={120} className={styles.clientImage} />
-            </div>
-            <div className={styles.logoItem}>
-              <Image src="/chicle.png" alt="Chicle Repostería" width={280} height={120} className={styles.clientImage} />
-            </div>
-            <div className={styles.logoItem}>
-              <Image src="/franc.png" alt="Materiales y Aceros Franc" width={280} height={120} className={styles.clientImage} />
+          <div className={styles.carouselWrapper}>
+            <div className={styles.carouselTrack}>
+              {/* Group 1 */}
+              <div className={styles.carouselGroup}>
+                <div className={styles.logoItem}>
+                  <Image src="/badilsa.png" alt="Badilsa" width={280} height={120} className={styles.clientImage} />
+                </div>
+                <div className={styles.logoItem}>
+                  <Image src="/Viksa.png" alt="Viksa" width={280} height={120} className={styles.clientImage} />
+                </div>
+                <div className={styles.logoItem}>
+                  <Image src="/chicle.png" alt="Chicle Repostería" width={280} height={120} className={styles.clientImage} />
+                </div>
+                <div className={styles.logoItem}>
+                  <Image src="/franc.png" alt="Materiales y Aceros Franc" width={280} height={120} className={styles.clientImage} />
+                </div>
+              </div>
+              
+              {/* Group 2 (Duplicate for infinite scroll) */}
+              <div className={styles.carouselGroup}>
+                <div className={styles.logoItem}>
+                  <Image src="/badilsa.png" alt="Badilsa" width={280} height={120} className={styles.clientImage} />
+                </div>
+                <div className={styles.logoItem}>
+                  <Image src="/Viksa.png" alt="Viksa" width={280} height={120} className={styles.clientImage} />
+                </div>
+                <div className={styles.logoItem}>
+                  <Image src="/chicle.png" alt="Chicle Repostería" width={280} height={120} className={styles.clientImage} />
+                </div>
+                <div className={styles.logoItem}>
+                  <Image src="/franc.png" alt="Materiales y Aceros Franc" width={280} height={120} className={styles.clientImage} />
+                </div>
+              </div>
             </div>
           </div>
         </div>

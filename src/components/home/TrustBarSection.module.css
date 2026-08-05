@@ -60,20 +60,35 @@
   letter-spacing: 0.05em;
 }
 
-.logosGrid {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 2rem;
-  opacity: 0.6;
-  filter: grayscale(100%);
-  transition: all 0.3s ease;
+.carouselWrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  /* Faded edges effect */
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
 }
 
-.logosGrid:hover {
-  opacity: 1;
-  filter: grayscale(0%);
+.carouselTrack {
+  display: flex;
+  width: max-content;
+  animation: scroll 30s linear infinite;
+}
+
+.carouselTrack:hover {
+  animation-play-state: paused;
+}
+
+.carouselGroup {
+  display: flex;
+  justify-content: space-around;
+  gap: 4rem;
+  padding-right: 4rem; /* match the gap so it transitions perfectly into the next group */
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* Exactly half since we duplicated the group */
 }
 
 .logoItem {
@@ -84,11 +99,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0.6;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+  width: 280px; /* fixed width helps maintain consistency */
+}
+
+.logoItem:hover {
+  opacity: 1;
+  filter: grayscale(0%);
 }
 
 .clientImage {
   object-fit: contain;
-  mix-blend-mode: multiply; /* Removes white backgrounds from non-transparent images */
+  mix-blend-mode: multiply;
 }
 
 @media (max-width: 1024px) {
@@ -101,7 +125,8 @@
   .statsGrid {
     grid-template-columns: 1fr;
   }
-  .logosGrid {
-    justify-content: center;
+  .carouselGroup {
+    gap: 2rem;
+    padding-right: 2rem;
   }
 }
